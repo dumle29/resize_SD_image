@@ -1,8 +1,8 @@
 # Resize_SD_image
 A linux bash-script for taking an image of an SD card and shrinking it to the actual space used on the SDcard
 
-# Dependencies    
-The package "dcfldd" needs to be installed in order for the script to function.
+# Optional
+The script attempts to use dcfldd which is nicer than dd. If you would like to take advantage of this, install dcfldd. Otherwise, we will just use dd.
 
 # Usage
 To use this script, plug in an sdcard to a linux based computer. and run the command as superuser, passing it two arguments. Device to read, and the image file to save as.
