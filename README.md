@@ -11,7 +11,7 @@ Example
 
     sudo ./resizeimg /dev/mmcblk0 /home/$USER/test.img
     
-Video explaining the script: https://www.youtube.com/watch?v=9FokMQYKnik
+Video explaining the script:
 [![Video explaining the script: https://www.youtube.com/watch?v=9FokMQYKnik](https://img.youtube.com/vi/9FokMQYKnik/0.jpg)](https://www.youtube.com/watch?v=9FokMQYKnik)
 
 # Attribution
