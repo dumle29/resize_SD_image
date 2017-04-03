@@ -31,12 +31,6 @@ then
   exit 1
 fi
 
-which dcfldd >/dev/null
-if [ $? != "0" ] ; then
-  echo -e "You do not seem to have dcfldd installed.\nPlease install dcfldd and try again"
-  exit 1
-fi
-
 if [[ $EUID -ne 0 ]]; then
   echo "You must be a root user" 2>&1
   exit 1
